@@ -1,0 +1,30 @@
+baseURL      = "https://xerbo.net/"
+languageCode = "en-gb"
+title        = "xerbo.net"
+theme        = "hello-friend-ng"
+
+[params]
+  homeTitle = "Welcome to <span style=\"color:#19a974;\">[</span>xerbo.net<span style=\"color:#19a974;\">]</span>"
+  homeSubtitle = "Amateur radio and space-to-earth communication"
+  description = "Amateur radio and space-to-earth communication"
+  keywords = "blog, radio, satellites"
+
+  enableSharingButtons = false
+
+  [params.footer]
+    copyright = true
+
+[languages]
+  [languages.en]
+    copyright = 'All content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> unless otherwise specified'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "<span style=\"color:#19a974;\">[</span>xerbo.net<span style=\"color:#19a974;\">]</span>"
+      logoCursorDisabled = true
+      logoMark = " "
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
